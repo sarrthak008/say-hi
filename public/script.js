@@ -1,12 +1,9 @@
 
 
 let notification = document.querySelector('#note')
-var AIstatus=true
- notification.addEventListener('click',()=>{
-   alert(`PING:${Math.random()*20}KB/s\nAI-STATUS:TRUE\nSOCKET-STATUS:WORKING(true)\nUSER:${hope}\nNOTE:AI WORK FOR ONLY YOU\nNOTE:DONT REFRESH PAGE DURING CHAT`)
- })
+var AIstatus=true
  
- notification.addEventListener('dblclick',()=>{
+ notification.addEventListener('click',()=>{
      AIstatus=confirm('you want chat with AI..')
  })
 
