@@ -73,7 +73,7 @@ function sendChat() {
                   ans = ans.replace('Nepcoder', 'CoderX')
                   const AImsg = {
                     name: 'Rossy',
-                    msg: `${ans.slice(0, 30)}`
+                    msg: `${ans.slice(0, 70)}`
                   }
                   addReciveMsg(AImsg)
           
