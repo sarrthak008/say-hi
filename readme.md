@@ -15,11 +15,11 @@
 
 ##### ᴄᴏᴅᴇ ᴛʜᴀᴛ ʜᴀɴᴅᴀʟᴇ ᴍᴇssᴀɢᴇ ᴄʟɪᴇɴᴛ ᴛᴏ sᴇʀᴠᴇʀ 🔖
 
-`io.on('connection',(socket)=>{
-    console.log('user connect..')
-     socket.on('clientToServe',(Msg)=>{
-        console.log(Msg)
-        socket.broadcast.emit('serverToClient',Msg)
-     })
+`io.on('connection',(socket)=>{`
+    `console.log('user connect..')`
+     `socket.on('clientToServe',(Msg)=>{
+        console.log(Msg)`
+        `socket.broadcast.emit('serverToClient',Msg)`
+     `})
 
 })`
