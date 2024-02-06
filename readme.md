@@ -13,13 +13,15 @@
 
 <hr>
 
-##### ᴄᴏᴅᴇ ᴛʜᴀᴛ ʜᴀɴᴅᴀʟᴇ ᴍᴇssᴀɢᴇ ᴄʟɪᴇɴᴛ ᴛᴏ sᴇʀᴠᴇʀ 🔖
+#####  [!IMPORTANT] ᴄᴏᴅᴇ ᴛʜᴀᴛ ʜᴀɴᴅᴀʟᴇ ᴍᴇssᴀɢᴇ ᴄʟɪᴇɴᴛ ᴛᴏ sᴇʀᴠᴇʀ
 
-`io.on('connection',(socket)=>{`
-    `console.log('user connect..')`
-     `socket.on('clientToServe',(Msg)=>{
-        console.log(Msg)`
-        `socket.broadcast.emit('serverToClient',Msg)`
-     `})
+<hr>
 
-})`
+``` io.on('connection',(socket)=>{
+    console.log('user connect..')
+     socket.on('clientToServe',(Msg)=>{
+        console.log(Msg)
+        socket.broadcast.emit('serverToClient',Msg)
+     })
+
+})```
