@@ -134,4 +134,4 @@ addReciveMsg(Aimsg)
 
 <hr>
 
-<img src="https://images.app.goo.gl/7DpWLMZGkbykAWyJ6" alt="lots of love" width=400>
+🫶
