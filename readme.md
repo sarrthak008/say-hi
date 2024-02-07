@@ -131,3 +131,7 @@ addReciveMsg(Aimsg)
 ### ʟɪᴠᴇ ʜᴇʀᴇ 
 
 [say hiii👋](https://say-hii.onrender.com/)
+
+<hr>
+
+![Love](https://images.app.goo.gl/7DpWLMZGkbykAWyJ6)
