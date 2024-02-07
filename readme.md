@@ -49,4 +49,23 @@ const Msg = {
 
 //get message and name and send to server
 
-```
+``` 
+
+
+<hr>
+
+##### ᴄᴏᴅᴇ ᴛʜᴀᴛ ɢᴇᴛ ᴍᴇssᴀɢᴇ ғʀᴏᴍ sᴇʀᴠᴇʀ ᴀɴᴅ ᴀᴅᴅ ɪɴᴛᴏ ᴇᴊs ᴅᴏᴍ
+
+<hr>
+
+
+````
+
+
+socket.on('serverToClient', (recevieMsg) => {
+  console.log(recevieMsg)
+  addReciveMsg(recevieMsg)
+})
+
+
+````
