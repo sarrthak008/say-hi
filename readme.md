@@ -106,7 +106,7 @@ addReciveMsg(Aimsg)
 
 <hr>
 
-  #### used dependancy 🎲
+  #### used dependancy 🚅
    
    > sockt.io 🎲 <br>
    > express 🎲<br>
