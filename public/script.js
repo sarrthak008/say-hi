@@ -1,7 +1,8 @@
 
 
 let notification = document.querySelector('#note')
-var AIstatus=true
+var AIstatus=true
+
  
  notification.addEventListener('click',()=>{
      AIstatus=confirm('you want chat with AI..')
@@ -60,20 +61,16 @@ function sendChat() {
       chats.scrollTop = chats.scrollHeight
 
         if(AIstatus==true){
-                let codedMsg = Msg.msg.split(" ").join("")
+                
 
-                let url = `https://chatgpt.apinepdev.workers.dev/?question=+${codedMsg}+&state=girlfriend`
+                let url = `https://chatgpt.apinepdev.workes.dev/?question=${Msg.msg}`
                 fetch(url).then((resp) => {
                   return (resp.json())
                 }).then((res) => {
-                  let ans = res.answer.split('/n')[0];
-                  ans = ans.replace('GF:', `AI`)
-                  ans = ans.replace('BF:', 'AI')
-                  ans = ans.replace('[Your Name]', 'Rossy')
-                  ans = ans.replace('Nepcoder', 'CoderX')
-                  const AImsg = {
+                  let ans = res.answer;
+        const AImsg = {
                     name: 'Rossy',
-                    msg: `${ans.slice(0, 70)}`
+                    msg: `${ans}`
                   }
                   addReciveMsg(AImsg)
           
