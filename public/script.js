@@ -62,19 +62,24 @@ function sendChat() {
 
         if(AIstatus==true){
                 
+          const url=`https://chatgpt.apinepdev.workers.dev/?question=${Msg.msg}`
+fetch(url).then((res)=>{
+  //console.log(res)
+  return res.json()
+}).then((resp)=>{
+  
+   const Aimsg={
+ name:"rossy", 
+ msg:`${resp.answer}`
 
-                let url = `https://chatgpt.apinepdev.workes.dev/?question=${Msg.msg}`
-                fetch(url).then((resp) => {
-                  return (resp.json())
-                }).then((res) => {
-                  let ans = res.answer;
-        const AImsg = {
-                    name: 'Rossy',
-                    msg: `${ans}`
-                  }
-                  addReciveMsg(AImsg)
-          
-                })
+
+}
+
+addReciveMsg(Aimsg) 
+
+
+}).catch((err)=>console.log(err))
+       
           
          }
 
