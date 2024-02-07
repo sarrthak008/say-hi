@@ -43,6 +43,6 @@
 
  socket.emit('clientToServe', Msg);
 
-//sᴇɴᴅ ᴍsɢ ᴛᴏ sᴇʀᴠᴇʀ ᴛᴏ sʜᴀʀᴇ ᴍsɢ ᴀʟʟ ᴄᴏɴɴᴇᴄᴛᴇᴅ ʙʀᴏᴡsᴇʀs
+//get message and name and send to server
 
 ```
