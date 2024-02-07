@@ -108,8 +108,8 @@ addReciveMsg(Aimsg)
 
   #### used dependancy 🎲
    
-   > sockt.io
-   > express
-   > ejs 
+   > sockt.io 🎲 <br>
+   > express 🎲<br>
+   > ejs 🎲 <br>
 
  
