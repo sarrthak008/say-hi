@@ -13,9 +13,9 @@ app.get("/",(req,res)=>{
 })
 
 io.on('connection',(socket)=>{
-    console.log('user connect..')
+    //console.log('user connect..')
      socket.on('clientToServe',(Msg)=>{
-        console.log(Msg)
+       // console.log(Msg)
         socket.broadcast.emit('serverToClient',Msg)
      })
 
