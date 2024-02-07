@@ -24,7 +24,8 @@
         socket.broadcast.emit('serverToClient',Msg)
      })
 
-})```  <br>
+}) ```
+
 
 <hr>
 
@@ -32,9 +33,7 @@
 
 <hr>
 
-```
-
-      const Msg = {
+``` const Msg = {
         name: `${hope}`,
         msg: `${inputMsg.value}`
       }     
