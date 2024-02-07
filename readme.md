@@ -112,4 +112,9 @@ addReciveMsg(Aimsg)
    > express 🎲<br>
    > ejs 🎲 <br>
 
- 
+ <hr>
+
+ #### ʀᴜɴ ɪɴ ʏᴏᴜʀ sʏsᴛᴇᴍ
+  > git clone github.com/sarrthak008/say-hii <br>
+  > npm i <br>
+  > npm run dev <br>
