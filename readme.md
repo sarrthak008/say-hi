@@ -38,7 +38,9 @@
 
 <hr>
 
-``` const Msg = {
+``` 
+
+const Msg = {
         name: `${hope}`,
         msg: `${inputMsg.value}`
       }     
