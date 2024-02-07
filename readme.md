@@ -98,3 +98,11 @@ addReciveMsg(Aimsg)
 
 
 }).catch((err)=>console.log(err))
+
+<hr>
+  #### used dependancy 🎲
+   > sockt.io
+   > express
+   > ejs 
+
+ 
