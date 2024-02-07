@@ -17,7 +17,9 @@
 
 <hr>
 
-``` io.on('connection',(socket)=>{
+```
+
+ io.on('connection',(socket)=>{
     console.log('user connect..')
      socket.on('clientToServe',(Msg)=>{
         console.log(Msg)
