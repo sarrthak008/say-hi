@@ -59,13 +59,14 @@ const Msg = {
 <hr>
 
 
-````
+```
 
 
 socket.on('serverToClient', (recevieMsg) => {
   console.log(recevieMsg)
   addReciveMsg(recevieMsg)
+//this function add message into DOM
 })
 
 
-````
+```
