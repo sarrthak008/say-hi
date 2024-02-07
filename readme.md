@@ -83,17 +83,15 @@ socket.on('serverToClient', (recevieMsg) => {
 
 ````
 
-          const url=`https://chatgpt.apinepdev.workers.dev/?question=${Msg.msg}`
+const url=`https://chatgpt.apinepdev.workers.dev/?question=${Msg.msg}`
+
 fetch(url).then((res)=>{
-  //console.log(res)
-  return res.json()
+     return res.json()
 }).then((resp)=>{
 
-   const Aimsg={
- name:"rossy", 
- msg:`${resp.answer}`
-
-
+ const Aimsg={
+    name:"rossy", 
+    msg:`${resp.answer}`
 }
 
 addReciveMsg(Aimsg) 
