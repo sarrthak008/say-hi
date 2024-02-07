@@ -128,4 +128,4 @@ addReciveMsg(Aimsg)
 
 <hr>
  
-[say hii herer 👋]  (https://say-hii.onrender.com/) 
+[say hii here👋] (https://say-hii.onrender.com/) 
