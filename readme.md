@@ -117,7 +117,7 @@ addReciveMsg(Aimsg)
  #### ʀᴜɴ ɪɴ ʏᴏᴜʀ sʏsᴛᴇᴍ 🛫
 
   > git clone https://github.com/sarrthak008/say-hii <br>
-  > cd say-hi
+  > cd say-hi <br>
   > npm i <br>
   > npm run dev <br>
 ##### please check nodemon
